@@ -1,0 +1,49 @@
+﻿{
+   "ContextClassName": "ZooContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "Zoo.Infrastructure",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Animal]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AnimalCanEats]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AnimalEats]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Classification]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Family]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Food]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": true,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
